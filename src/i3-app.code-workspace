@@ -2,10 +2,17 @@
 	"folders": [
 		{
 			"path": ".."
-		},
-		{
-			"path": "../public"
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"launch": {
+		"configurations": [
+			{
+				"type": "chrome",
+				"name": "http://localhost:5173/",
+				"request": "launch",
+				"url": "http://localhost:5173/"
+			}
+		]
+	}
 }
